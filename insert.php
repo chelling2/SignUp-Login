@@ -40,7 +40,7 @@
 			width: 95%;
 			border: 3px solid green;
 			border-radius: 5px;
-			
+
 		}
 
 		input[type="submit"] {
