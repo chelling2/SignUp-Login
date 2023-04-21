@@ -17,15 +17,11 @@
 ![4](https://user-images.githubusercontent.com/114050357/229791563-efbc7840-d87a-421e-8abf-02a3df268928.JPG)
 
 
-xampp를 사용하여 실행하는데, xampp는  Apache, MySQL, PHP등을 포함한 오픈 소스 플랫폼 웹 서버 패키지이다. 
+sql 질의문 작성
 
-sql 질의문 작성이다.
 CREATE TABLE users (
 id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 name VARCHAR(30) NOT NULL,
 email VARCHAR(50) NOT NULL,
 password VARCHAR(30) NOT NULL
 ); 
-
-XAMPP 폴더안에 htdocs 폴더가 있는데 이것이 localhost를 가리킨다. 그래서 로컬을 변경하고 싶다면, 아파치 config에서 Document Root 경로를 통해 변경하면 된다. 
-
